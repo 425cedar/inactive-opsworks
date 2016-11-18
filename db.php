@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
 $servername = "mysql-instance.clfjswptmpv4.us-west-2.rds.amazonaws.com";
 $username = "read-only";
@@ -25,3 +29,6 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+
+</body>
+</html>
