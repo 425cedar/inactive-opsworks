@@ -4,6 +4,7 @@ $username = "read-only";
 $password = "Pa55word";
 $dbname = "mysql_php";
 
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
